@@ -1,6 +1,6 @@
 # OpenCode iOS 开发 Agent 合集
 
-34 个中文 OpenCode 子代理，覆盖 iOS 越狱插件和 App 开发全流程。
+39 个中文 OpenCode 子代理，覆盖 iOS 越狱插件和 App 开发全流程。
 
 ## 安装
 
@@ -15,7 +15,7 @@ rm -rf /tmp/agent
 
 ## Agent 列表
 
-### 🔧 工程开发 (14)
+### 🔧 工程开发 (15)
 | Agent | 用途 |
 |---|---|
 | `@mobile-app-builder` | iOS/Android 原生 + 跨平台 |
@@ -27,6 +27,7 @@ rm -rf /tmp/agent
 | `@software-architect` | 系统设计、DDD、架构模式 |
 | `@backend-architect` | API 设计、数据库、微服务 |
 | `@ai-engineer` | CoreML / ML 模型集成 |
+| `@frontend-developer` | React/Vue/Angular、RN 前端 |
 | `@git-workflow-master` | 分支策略、约定式提交 |
 | `@devops-automator` | CI/CD、云运维 |
 | `@incident-response-commander` | 生产事故应急、复盘 |
@@ -43,11 +44,12 @@ rm -rf /tmp/agent
 | `@trend-researcher` | 竞品分析、市场趋势 |
 | `@developer-advocate` | 技术社区、开发者关系 |
 
-### 🎨 设计 (2)
+### 🎨 设计 (3)
 | Agent | 用途 |
 |---|---|
 | `@ui-designer` | 设计系统、组件库、视觉规范 |
 | `@ux-researcher` | 用户测试、行为分析 |
+| `@frontend-developer` | 前端 UI 实现 |
 
 ### 🧪 测试与质量 (7)
 | Agent | 用途 |
@@ -60,11 +62,15 @@ rm -rf /tmp/agent
 | `@accessibility-auditor` | 无障碍审计 |
 | `@model-qa-specialist` | ML 模型质量审计 |
 
-### 🔒 安全 (2)
+### 🔒 安全 (6)
 | Agent | 用途 |
 |---|---|
 | `@security-architect` | 威胁建模、纵深防御 |
+| `@application-security-engineer` | SDLC 安全、SAST/DAST |
 | `@penetration-tester` | 渗透测试、漏洞评估 |
+| `@incident-responder` | DFIR、入侵调查 |
+| `@compliance-auditor` | SOC2/ISO27001/隐私合规 |
+| `@cloud-security-architect` | 云原生安全、零信任 |
 
 ### 🔧 工具与流程 (3)
 | Agent | 用途 |
