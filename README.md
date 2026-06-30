@@ -1,11 +1,10 @@
 # OpenCode iOS 开发 Agent 合集
 
-22 个中文 OpenCode 子代理，覆盖 iOS 越狱插件和 App 开发全流程。
+34 个中文 OpenCode 子代理，覆盖 iOS 越狱插件和 App 开发全流程。
 
 ## 安装
 
 ```bash
-# 全局安装
 mkdir -p ~/.config/opencode/agents
 git clone https://github.com/ac54u/agent.git /tmp/agent
 cp /tmp/agent/*.md ~/.config/opencode/agents/
@@ -16,13 +15,13 @@ rm -rf /tmp/agent
 
 ## Agent 列表
 
-### 🔧 工程开发
+### 🔧 工程开发 (14)
 | Agent | 用途 |
 |---|---|
-| `@mobile-app-builder` | iOS/Android 原生 + 跨平台开发 |
+| `@mobile-app-builder` | iOS/Android 原生 + 跨平台 |
 | `@voice-ai-integration-engineer` | Whisper 语音转录/AI 音频 |
 | `@rapid-prototyper` | POC/MVP 快速验证 |
-| `@codebase-onboarding-engineer` | 阅读源码、追踪调用链 |
+| `@codebase-onboarding-engineer` | 代码库分析、调用链追踪 |
 | `@code-reviewer` | 代码审查：正确性、安全、性能 |
 | `@minimal-change-engineer` | 最小 diff，拒绝范围蔓延 |
 | `@software-architect` | 系统设计、DDD、架构模式 |
@@ -31,14 +30,26 @@ rm -rf /tmp/agent
 | `@git-workflow-master` | 分支策略、约定式提交 |
 | `@devops-automator` | CI/CD、云运维 |
 | `@incident-response-commander` | 生产事故应急、复盘 |
+| `@mcp-builder` | 构建 OpenCode MCP 工具 |
+| `@agents-orchestrator` | 多 Agent 工作流编排 |
 
-### 🔒 安全
+### 📱 产品与市场 (6)
 | Agent | 用途 |
 |---|---|
-| `@security-architect` | 威胁建模、纵深防御 |
-| `@penetration-tester` | 渗透测试、漏洞评估 |
+| `@product-manager` | 产品全生命周期管理 |
+| `@senior-project-manager` | 任务拆解、范围控制 |
+| `@app-store-optimizer` | ASO、关键词、转化率优化 |
+| `@china-market-localization-strategist` | 中国市场本地化（抖音/小红书/微信） |
+| `@trend-researcher` | 竞品分析、市场趋势 |
+| `@developer-advocate` | 技术社区、开发者关系 |
 
-### 🧪 测试与质量
+### 🎨 设计 (2)
+| Agent | 用途 |
+|---|---|
+| `@ui-designer` | 设计系统、组件库、视觉规范 |
+| `@ux-researcher` | 用户测试、行为分析 |
+
+### 🧪 测试与质量 (7)
 | Agent | 用途 |
 |---|---|
 | `@reality-checker` | 证据驱动上线认证 |
@@ -47,19 +58,17 @@ rm -rf /tmp/agent
 | `@api-tester` | API 自动化测试 |
 | `@test-results-analyzer` | 测试结果分析 |
 | `@accessibility-auditor` | 无障碍审计 |
+| `@model-qa-specialist` | ML 模型质量审计 |
 
-### 🔧 工具与流程
+### 🔒 安全 (2)
+| Agent | 用途 |
+|---|---|
+| `@security-architect` | 威胁建模、纵深防御 |
+| `@penetration-tester` | 渗透测试、漏洞评估 |
+
+### 🔧 工具与流程 (3)
 | Agent | 用途 |
 |---|---|
 | `@tool-evaluator` | 框架/工具技术选型 |
 | `@workflow-optimizer` | 开发流程分析与优化 |
-
-## 使用方式
-
-```
-@code-reviewer 审查这段 ObjC 代码
-@mobile-app-builder 这个 SwiftUI 视图怎么优化
-@reality-checker 检查改动质量
-@voice-ai-integration-engineer 音频格式转换
-@minimal-change-engineer 修复这个 crash
-```
+| `@technical-writer` | API 文档、README、技术教程 |
